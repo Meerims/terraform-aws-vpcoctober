@@ -1,7 +1,7 @@
 # terraform-aws-vpcoctober
-
+```hcl
 module "vpc" {
-    source = ""
+    source = "Meerims/vpcoctober/aws"
     version = "0.0.1"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
@@ -13,3 +13,4 @@ module "vpc" {
     key_name = "kaizen"
     type = true
 }
+```
